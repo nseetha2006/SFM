@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JSFFlowViewLayout version="1.0">
+  <Drawing gridVisible="true" snapOn="true" />
+  <JSFFlowResource path="/mainMenu.xhtml" location="88,111" dimension="125,36" />
+  <JSFFlowResource path="/ajax4jsf.xhtml" location="0,222" dimension="111,36" />
+  <JSFFlowResource path="/selectFile.xhtml" location="186,222" dimension="120,36" />
+  <JSFFlowResource path="/*" location="242,0" dimension="53,36" />
+  <JSFFlowResource path="/userForm.xhtml" location="388,111" dimension="119,36" />
+  <JSFFlowResource path="/admin/users.xhtml" location="381,222" dimension="134,36" />
+  <JSFFlowResource path="/showFile.xhtml" location="187,333" dimension="117,36" />
+  <JSFFlowResource path="/signup.xhtml" location="0,414" dimension="107,36" />
+  <JSFFlowResource path="/login.jsp" location="109,525" dimension="87,36" />
+  <JSFFlowResource path="/passwordHint.xhtml" location="182,414" dimension="140,36" />
+  <JSFFlowNavigationCase id="/mainMenu.xhtml,/ajax4jsf.xhtml,ajax4jsf,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="119,147" />
+      <AbsolutePoint location="119,184" />
+      <AbsolutePoint location="55,184" />
+      <AbsolutePoint location="55,222" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/mainMenu.xhtml,/selectFile.xhtml,selectFile,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="182,147" />
+      <AbsolutePoint location="182,184" />
+      <AbsolutePoint location="246,184" />
+      <AbsolutePoint location="246,222" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/selectFile.xhtml,/showFile.xhtml,success,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="246,258" />
+      <AbsolutePoint location="246,333" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/mainMenu.xhtml,mainMenu,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="256,36" />
+      <AbsolutePoint location="256,73" />
+      <AbsolutePoint location="150,73" />
+      <AbsolutePoint location="150,111" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/*,/userForm.xhtml,editProfile,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="282,36" />
+      <AbsolutePoint location="282,73" />
+      <AbsolutePoint location="448,73" />
+      <AbsolutePoint location="448,111" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/userForm.xhtml,/admin/users.xhtml,cancel,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="418,147" />
+      <AbsolutePoint location="418,184" />
+      <AbsolutePoint location="414,184" />
+      <AbsolutePoint location="414,222" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/userForm.xhtml,/admin/users.xhtml,list,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="477,147" />
+      <AbsolutePoint location="477,184" />
+      <AbsolutePoint location="481,184" />
+      <AbsolutePoint location="481,222" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/signup.xhtml,/login.jsp,cancel,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="53,450" />
+      <AbsolutePoint location="53,487" />
+      <AbsolutePoint location="131,487" />
+      <AbsolutePoint location="131,525" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+  <JSFFlowNavigationCase id="/passwordHint.xhtml,/login.jsp,success,&lt;empty&gt;" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="252,450" />
+      <AbsolutePoint location="252,487" />
+      <AbsolutePoint location="174,487" />
+      <AbsolutePoint location="174,525" />
+    </AutomaticBendpoints>
+  </JSFFlowNavigationCase>
+</JSFFlowViewLayout>
+
